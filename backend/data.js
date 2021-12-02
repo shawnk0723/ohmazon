@@ -38,7 +38,7 @@ const data = {
     },
     {
       _id: "4",
-      name: "Nike Slim Pant",
+      name: "Nike Slim Pants",
       category: "Pants",
       image: "/images/p4.jpeg",
       price: 78,
