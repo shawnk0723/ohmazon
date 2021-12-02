@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       _id: "1",
-      name: "Nike Slim Shirts",
+      name: "Nike Slim Shirt",
       category: "Shirts",
       image: "/images/p1.jpeg",
       price: 125,
