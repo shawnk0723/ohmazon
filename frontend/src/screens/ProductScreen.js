@@ -76,9 +76,25 @@ export default function ProductScreen(props) {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  {product.countInStock > 0 && (
+                    <>
+                    <li>
+                      <div className="row">
+                        <div>Qty</div>
+                        <div>
+                          <select value={qty} onChange={e => setQty(e.target.value)}></select>
+                        </div>
+                      </div>
+                    
+                    </li>
+
+                    <li>
                     <button className="primary block">Add to Cart</button>
                   </li>
+                  </>
+                  )
+                  }
+                
                 </ul>
               </div>
             </div>
